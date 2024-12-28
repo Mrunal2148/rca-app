@@ -13,7 +13,7 @@ SmartRCA is a web application designed to streamline the process of Root Cause A
 ## Technologies Used
 
 - **Frontend:** React.js
-- **Backend:** Flask
+- **Backend:** Python, Flask
 - **PDF Generation:** FPDF
 - **Text Extraction:** pdfplumber
 - **AI Processing:** OpenAI GPT-4
@@ -82,14 +82,14 @@ SmartRCA is a web application designed to streamline the process of Root Cause A
 1. **Access the Application:**
     Open your web browser and go to `http://localhost:3000`.
 
-2. **Upload PDF:**
-    - Click on "Upload PDF" to select and upload a PDF file containing RCA data.
+2. **Create RCA:**
+    - Click on "RCA form" to fill a form with relevant RCA data.
 
 3. **Ask Questions:**
     - Enter your question related to the RCA data and click "Submit" to receive an answer.
 
 4. **Download Reports:**
-    - Navigate to the list of available PDFs and click the download icon to download the RCA reports.
+    - Navigate to the list of available RCAs and click the download icon to download the RCA reports.
 
 5. **Preview Reports:**
     - Click on the name of a PDF to preview the RCA report in a new window.
@@ -108,6 +108,11 @@ Contributions are welcome! Please feel free to submit a pull request or open an 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Future work
+
+1. Currently the RCA files are being stored in local repository. They need to be stored in Azure Storage Account.
+2. Currently a JSON file is being used as a input to the OpenAI. JSON file stores the same data as the PDFs. This is causing redundancy of the data.  An alternative to this needs to be implemented.
 
 ## Author
 Mrunal Kapure
