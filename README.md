@@ -94,5 +94,21 @@ SmartRCA is a web application designed to streamline the process of Root Cause A
 5. **Preview Reports:**
     - Click on the name of a PDF to preview the RCA report in a new window.
 
-## Project Structure
+
+## Troubleshooting
+
+- **CORS Issues:** Ensure `flask_cors` is properly configured in `app.py`.
+- **Module Not Found:** Make sure all required Python and npm packages are installed.
+- **API Key Issues:** Verify that the OpenAI API key is correctly set in `app.py`.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a pull request or open an issue.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Troubleshooting
+Mrunal Kapure
 
