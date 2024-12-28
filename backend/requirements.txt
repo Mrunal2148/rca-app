@@ -1,0 +1,4 @@
+flask
+fpdf
+openai==0.10.2
+pdfplumber==0.5.28

@@ -1,0 +1,31 @@
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    color: #8C1D40 !important;
+  }
+  
+  .logo {
+    height: 70px;
+    width: auto;
+  }
+  
+  .title {
+    font-size: 2.5em;
+    margin: 0;
+    font-weight: bold;
+    flex-grow: 1; 
+    text-align: center;
+  }
+  
+  @media (max-width: 600px) {
+    .header {
+      flex-direction: column;
+    }
+    .title {
+      font-size: 1.4em;
+    }
+  }
+  

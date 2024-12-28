@@ -1,0 +1,65 @@
+.pdf-list-container {
+  padding: 20px;
+  background-color: #A5B68D;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.fallback-message {
+  font-size: 16px;
+  color: #6c757d;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pdf-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pdf-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  margin: 8px 0;
+  background-color: #EDE8DC;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.pdf-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.pdf-name {
+  flex: 1;
+  cursor: pointer;
+  color: green;
+  text-decoration: underline;
+}
+
+.pdf-name:hover {
+  color: #0056b3;
+}
+
+.pdf-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.preview-icon,
+.download-icon {
+  cursor: pointer;
+  color: #6c757d;
+  font-size: 18px;
+  transition: color 0.2s;
+}
+
+.preview-icon:hover,
+.download-icon:hover {
+  color: #007bff;
+}
